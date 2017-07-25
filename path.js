@@ -12,7 +12,7 @@
 */
   }
 
-  var parse = require('./utils/pathParse')
+  var parse = require('./lib/path')
   var fs = require('fs')
   var path = require('path')
 
@@ -34,7 +34,7 @@
     : null
 
   var text = fs.readFileSync(src, 'utf-8')
-  var data = parse(text).join('\n')
+  var data = parse(text)
 
   if (dest) {
     fs.writeFileSync(dest, data)
