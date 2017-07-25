@@ -1,0 +1,23 @@
+{
+  "name": "svg-to-canvas",
+  "version": "1.0.0",
+  "description": "Script for generating `weCanvas` codes from `svg`",
+  "main": "path.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weiying-shenzhen/svgToCanvas.git"
+  },
+  "keywords": [
+    "weCanvas",
+    "svg to canvas"
+  ],
+  "author": "henryluki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weiying-shenzhen/svgToCanvas/issues"
+  },
+  "homepage": "https://github.com/weiying-shenzhen/svgToCanvas#readme"
+}
